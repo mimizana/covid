@@ -95,24 +95,24 @@ public class Covid{
         char c5 = sc.next().charAt(0);
         if(c5 =='y')
         {
-            Symptom alp=new Symptom();
+            Symptom sym=new Symptom();
             String var="Sore throat";
-            alp.setSymptom(var);
+            sym.setSymptom(var);
             System.out.println("How long has  person  had this symptom for?");
             int bc=sc.nextInt();
-            alp.setdays(bc);
+            sym.setdays(bc);
 
         }
         System.out.println("Does person have any symptom for Loss of smell (y/n)");
         char c6 = sc.next().charAt(0);
         if(c6 =='y')
         {
-            Symptom alp=new Symptom();
+            Symptom sym=new Symptom();
             String var="Loss of smell";
-            alp.setSymptom(var);
+            sym.setSymptom(var);
             System.out.println("How long has  person  had this symptom for?");
             int bc=sc.nextInt();
-            alp.setdays(bc);
+            sym.setdays(bc);
 
         }
 
@@ -120,12 +120,12 @@ public class Covid{
         char c7 = sc.next().charAt(0);
         if(c7 =='y')
         {
-            Symptom alp=new Symptom();
+            Symptom sym=new Symptom();
             String var="Loss of taste";
-            alp.setSymptom(var);
+            sym.setSymptom(var);
             System.out.println("How long has  person  had this symptom for?");
             int bc=sc.nextInt();
-            alp.setdays(bc);
+            sym.setdays(bc);
 
         }
 
@@ -133,12 +133,12 @@ public class Covid{
         char c8 = sc.next().charAt(0);
         if(c8 =='y')
         {
-            Symptom alp=new Symptom();
+            Symptom sym=new Symptom();
             String var="Headache";
-            alp.setSymptom(var);
+            sym.setSymptom(var);
             System.out.println("How long has  person  had this symptom for?");
             int bc=sc.nextInt();
-            alp.setdays(bc);
+            sym.setdays(bc);
 
         }
 
@@ -146,12 +146,12 @@ public class Covid{
         char c9 = sc.next().charAt(0);
         if(c9 =='y')
         {
-            Symptom alp=new Symptom();
+            Symptom sym=new Symptom();
             String var=" Diarrhea";
-            alp.setSymptom(var);
+            sym.setSymptom(var);
             System.out.println("How long has  person  had this symptom for?");
             int bc=sc.nextInt();
-            alp.setdays(bc);
+            sym.setdays(bc);
 
         }
         //
@@ -159,12 +159,12 @@ public class Covid{
         char c10 = sc.next().charAt(0);
         if(c10 =='y')
         {
-            Symptom alp=new Symptom();
+            Symptom symlp=new Symptom();
             String var="Severe vomiting";
-            alp.setSymptom(var);
+            symlp.setSymptom(var);
             System.out.println("How long has  person  had this symptom for?");
             int bc=sc.nextInt();
-            alp.setdays(bc);
+            symlp.setdays(bc);
 
         }
 
